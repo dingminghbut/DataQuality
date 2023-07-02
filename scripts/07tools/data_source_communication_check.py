@@ -1,11 +1,9 @@
 import mysql.connector
 import cx_Oracle
-import psycopg2
 from pyhive import hive
 from kafka import KafkaConsumer
 from pymongo import MongoClient
 import pyodbc
-import psycopg2
 import happybase
 import ibm_db
 import vertica_python
