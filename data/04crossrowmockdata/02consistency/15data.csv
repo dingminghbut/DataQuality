@@ -1,0 +1,7 @@
+Department,ParentDepartment
+Headquarters,
+Branch1,Headquarters
+Branch2,Headquarters
+Subnet1,Branch1
+Subnet2,Branch1
+Subnet3,Branch2
