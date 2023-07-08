@@ -27,7 +27,7 @@ for i in range(1, 11):
 
 print(customers_data)
 # Save Contracts data to CSV file
-contracts_filename = "contracts.csv"
+contracts_filename = "11contracts.csv"
 contracts_fieldnames = ["ContractID", "ContractType", "SigningCustomer"]
 
 with open(contracts_filename, "w", newline="") as contracts_file:
@@ -38,7 +38,7 @@ with open(contracts_filename, "w", newline="") as contracts_file:
 print(f"Mock Contracts data generated and saved to '{contracts_filename}'.")
 
 # Save Customers data to CSV file
-customers_filename = "customers.csv"
+customers_filename = "11customers.csv"
 customers_fieldnames = ["CustomerID", "CustomerName", "CustomerType"]
 
 with open(customers_filename, "w", newline="") as customers_file:

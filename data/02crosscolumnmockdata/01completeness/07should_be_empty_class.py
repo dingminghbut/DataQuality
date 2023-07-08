@@ -10,7 +10,7 @@ data = [
     ['Site 5', 35.6895, 139.6917, '987 Maple St', 'Tokyo', 'Japan', '100-0001', 'Active']
 ]
 
-filename = 'mock_data.csv'
+filename = '07mock_data.csv'
 
 with open(filename, 'w', newline='') as file:
     writer = csv.writer(file)
